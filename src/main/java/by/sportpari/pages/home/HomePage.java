@@ -17,6 +17,10 @@ public class HomePage {
         driver.get(BASE_URL);
     }
 
+    public void clickCookieToAccept() {
+        driver.findElement(By.xpath(HomeLocator.COOKIE_TO_ACCEPT)).click();
+    }
+
     public void clickOnEnter() {
         driver.findElement(By.xpath(HomeLocator.enterButton)).click();
     }

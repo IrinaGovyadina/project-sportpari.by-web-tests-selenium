@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 public class HomeLocator {
 
     public static String enterButton = "//a[@class='button header-cell__item button_login']";
+    public static final String COOKIE_TO_ACCEPT = "//a[@class='button button_primary button_extra-small button_wide-responsive'] [1]";
 
     public static final By ADDRESS_LINE = By.xpath("//p[@class='footer__text footer__text_enlarged']");
     public static final By EMAIL_LINE = By.xpath("//a[@href='mailto: info@sportpari.by']");
